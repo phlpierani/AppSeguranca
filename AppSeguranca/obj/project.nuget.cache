@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lup0u0zMD6E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\phlpi\\source\\repos\\AppSeguranca\\AppSeguranca.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phlpi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}

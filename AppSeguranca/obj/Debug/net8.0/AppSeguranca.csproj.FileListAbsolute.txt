@@ -1,0 +1,14 @@
+C:\Users\phlpi\source\repos\AppSeguranca\obj\Debug\net8.0\AppSeguranca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phlpi\source\repos\AppSeguranca\obj\Debug\net8.0\AppSeguranca.AssemblyInfoInputs.cache
+C:\Users\phlpi\source\repos\AppSeguranca\obj\Debug\net8.0\AppSeguranca.AssemblyInfo.cs
+C:\Users\phlpi\source\repos\AppSeguranca\obj\Debug\net8.0\AppSeguranca.csproj.CoreCompileInputs.cache
+C:\Users\phlpi\source\repos\AppSeguranca\bin\Debug\net8.0\AppSeguranca.exe
+C:\Users\phlpi\source\repos\AppSeguranca\bin\Debug\net8.0\AppSeguranca.deps.json
+C:\Users\phlpi\source\repos\AppSeguranca\bin\Debug\net8.0\AppSeguranca.runtimeconfig.json
+C:\Users\phlpi\source\repos\AppSeguranca\bin\Debug\net8.0\AppSeguranca.dll
+C:\Users\phlpi\source\repos\AppSeguranca\bin\Debug\net8.0\AppSeguranca.pdb
+C:\Users\phlpi\source\repos\AppSeguranca\obj\Debug\net8.0\AppSeguranca.dll
+C:\Users\phlpi\source\repos\AppSeguranca\obj\Debug\net8.0\refint\AppSeguranca.dll
+C:\Users\phlpi\source\repos\AppSeguranca\obj\Debug\net8.0\AppSeguranca.pdb
+C:\Users\phlpi\source\repos\AppSeguranca\obj\Debug\net8.0\AppSeguranca.genruntimeconfig.cache
+C:\Users\phlpi\source\repos\AppSeguranca\obj\Debug\net8.0\ref\AppSeguranca.dll
