@@ -1,29 +1,20 @@
-# Docker
-# Build a Docker image
-# https://docs.microsoft.com/azure/devops/pipelines/languages/docker
-
 trigger:
-- main
+  - main  # Ou a branch que você desejar monitorar
 
-resources:
-- repo: self
+pool:
+  vmImage: 'ubuntu-latest'  # Ou windows-latest, se preferir
 
-variables:
-  tag: '$(Build.BuildId)'
+steps:
+  - task: UseDotNet@2
+    inputs:
+      packageType: 'sdk'
+      version: '7.x.x'  # Use a versão adequada do SDK .NET
+      installationPath: $(Agent.ToolsDirectory)/dotnet
 
-stages:
-- stage: Build
-  displayName: Build image
-  jobs:
-  - job: Build
-    displayName: Build
-    pool:
-      vmImage: ubuntu-latest
-    steps:
-    - task: Docker@2
-      displayName: Build an image
-      inputs:
-        command: build
-        dockerfile: '$(Build.SourcesDirectory)/AppSeguranca/Dockerfile'
-        tags: |
-          $(tag)
+  - script: |
+      dotnet build --configuration Release
+    displayName: 'Compilar solução'
+
+  - script: |
+      dotnet test --no-build --verbosity normal
+    displayName: 'Executar testes'
